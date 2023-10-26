@@ -1,0 +1,24 @@
+#include <iostream>
+
+using namespace std;
+int main() {
+    
+cout << "Hello, Welcome to Los Santos Hermanos" <<endl;
+cout << "My name is Gustavo but you can call me Gus\n";
+cout << "\nHow many chicken do you want ?";
+
+int tavuk_sayısı {0};
+cin >> tavuk_sayısı;
+
+cout << "\n menu cost" << endl;
+cout << "chicken piece :"<< tavuk_sayısı << endl;
+cout << "price per chicken:$"<<1.2<< endl;
+cout << "cost : $"<< 1.2*tavuk_sayısı<< endl;
+cout << "Tax : $ "<< 1.2*tavuk_sayısı*0.18 << endl;
+cout << "========================================"<< endl;
+cout << "total estimate: $" <<(1.2*tavuk_sayısı) + (1.2*tavuk_sayısı*0.18) << endl;
+cout << "\nThis estimate is valid for" <<30<< "days" << endl;
+
+cout << endl;
+return 0;
+}
